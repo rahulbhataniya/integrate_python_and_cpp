@@ -1,0 +1,12 @@
+create cpp file and make binary by shared library 
+using command :
+
+g++ -arch -shared -o my_calculator.so my_calculator.cpp
+
+below two commands are for os based architecture.
+g++ -arch arm64 -shared -o my_calculator.so my_calculator.cpp
+or 
+g++ -arch x86_64 -shared -o my_calculator.so my_calculator.cpp
+
+
+
